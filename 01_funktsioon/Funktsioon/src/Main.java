@@ -4,7 +4,7 @@ public class Main {
     TemperatureConversionTable(20,40);
 
     }
-    
+
     private static void TemperatureConversionTable(int CelsiusMin, int CelsiusMax) {
         while (CelsiusMin <= CelsiusMax) {
             double Fahrenheit = CelsiusMin*1.8+32;
