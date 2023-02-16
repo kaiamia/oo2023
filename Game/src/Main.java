@@ -28,7 +28,7 @@ public class Main {
         int orcXCoordinate = getRandomCoordinate(worldWidth);
         int orcYCoordinate = getRandomCoordinate(worldHeigth);
         char orcSymbol = 'O';
-        
+
         // algväärtus    kuni   iga tsükkel
         for (int y = 0; y < worldHeigth; y++) {
             System.out.println();
