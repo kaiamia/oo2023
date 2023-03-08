@@ -3,6 +3,8 @@ public class Player {
     int yCoordinate;
     char symbol;
     Direction direction;
+    // Ese: xCoordinate, yCoordinate, tugevusest, kasutuskordadest, nimest
+    Item item; //klassikomplekt  Player klassi sees on Item klass
 
     //constructor (käivitatakse koheselt)
     public Player(int worldWidth, int worldHeight) {
