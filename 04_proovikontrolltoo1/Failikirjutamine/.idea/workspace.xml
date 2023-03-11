@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04d47c00-ceb9-4037-b658-0f21f84e62af" name="Changes" comment="" />
+    <list default="true" id="c3597325-3385-4fa2-a601-47de74396736" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +13,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="2LpWQirrKrvUXavwiZG8jqKz0w6" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MpAkp4PI62Vepy1F4Z68fk16gD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,15 +36,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="04d47c00-ceb9-4037-b658-0f21f84e62af" name="Changes" comment="" />
-      <created>1676568490153</created>
+      <changelist id="c3597325-3385-4fa2-a601-47de74396736" name="Changes" comment="" />
+      <created>1678454299358</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676568490153</updated>
-      <workItem from="1676568491288" duration="56000" />
-      <workItem from="1676569006718" duration="9000" />
-      <workItem from="1676628782747" duration="7000" />
-      <workItem from="1678446701041" duration="594000" />
+      <updated>1678454299358</updated>
+      <workItem from="1678454300677" duration="469000" />
     </task>
     <servers />
   </component>
