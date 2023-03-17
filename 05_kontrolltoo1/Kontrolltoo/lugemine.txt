@@ -1,0 +1,8 @@
+4
+Loo liides mille ainus meetod saab sisendiks tähe ning väljastab selle tähe esinemise arvu.
+Loo realiseeriv klass sõna tarbeks.
+Koosta automaattestid töö kontrolliks näitamaks a p ja etähtede arvu sõnas pere.
+Loo liidest realiseeriv klass Lause. Lauselt saab lisaks küsida sõnade arvu ning Sõna-klassi eksemplaride massiivi.
+Koosta rakendus kus saab ette anda lause ning väljastatakse atähtede arv terves lauses ning igas sõnas eraldi.
+Kõik lausetes leidunud eri sõnad lisatakse faili.
+Rakenduse väljundis näidatakse millised sõnad on sisendlausest uued ning millised juba varem olemas olnud.
