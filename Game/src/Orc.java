@@ -1,13 +1,7 @@
-public class Orc {
-    int xCoordinate;
-    int yCoordinate;
-    char symbol;
+public class Orc  extends Character {
     public Orc(int worldWidth, int worldHeight) {
-        this.symbol = 'O';
-        this.xCoordinate = getRandomCoordinate(worldWidth);
-        this.yCoordinate = getRandomCoordinate(worldHeight);
+        //super on parenti constructor
+       super(worldWidth, worldHeight, '0');
     }
-    private static int getRandomCoordinate(int worldWidth) {
-        return (int) (Math.random() * (worldWidth - 2) + 1);
-    }
+
 }

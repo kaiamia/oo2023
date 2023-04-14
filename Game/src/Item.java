@@ -1,10 +1,9 @@
-public class Item {
+public class Item implements WorldObject {
     int xCoordinate;
     int yCoordinate;
     int strength;
     int durability;
     String name;
-
     public Item(int strength, int durability, String name, int worldWidth, int worldHeight) {
         this.xCoordinate = getRandomCoordinate(worldWidth);
         this.yCoordinate = getRandomCoordinate(worldHeight);
@@ -12,7 +11,7 @@ public class Item {
         this.durability = durability;
         this.name = name;
     }
-    private static int getRandomCoordinate(int worldWidth) {
+    public int getRandomCoordinate(int worldWidth) {
         //castimine ehk teisendamine ühest tüübist teise
         return (int) (Math.random() * (worldWidth - 2) + 1);
     }

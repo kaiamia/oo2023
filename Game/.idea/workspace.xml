@@ -15,6 +15,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,6 +63,8 @@
       <workItem from="1677842899718" duration="11000" />
       <workItem from="1677842951724" duration="193000" />
       <workItem from="1677843171437" duration="7601000" />
+      <workItem from="1679654393833" duration="1760000" />
+      <workItem from="1681453016604" duration="1871000" />
     </task>
     <servers />
   </component>

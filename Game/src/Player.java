@@ -1,22 +1,9 @@
-public class Player {
-    int xCoordinate;
-    int yCoordinate;
-    char symbol;
+public class Player extends Character {
     Direction direction;
-    // Ese: xCoordinate, yCoordinate, tugevusest, kasutuskordadest, nimest
-    Item item; //klassikomplekt  Player klassi sees on Item klass
-
-    //constructor (käivitatakse koheselt)
+    Item item;
     public Player(int worldWidth, int worldHeight) {
-        this.symbol = 'X';
-        this.xCoordinate = getRandomCoordinate(worldWidth);
-        this.yCoordinate = getRandomCoordinate(worldHeight);
+        super(worldWidth,worldHeight, 'X');
         this.direction = Direction.UP;
-    }
-
-    private static int getRandomCoordinate(int worldWidth) {
-        //castimine ehk teisendamine ühest tüübist teise
-        return (int) (Math.random() * (worldWidth - 2) + 1);
     }
     public void move(String input, World world) {
         if (input.equals("w")){

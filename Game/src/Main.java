@@ -3,16 +3,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 public class Main {
-
-    //fori
-    //sout
-    //println teeb uue rea; print jätkab samal
-    //println() tühjana teeb lihtsalt uue rea
-    // || - või
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        //String sonaline = "Sõnaline muutuja";
-        //char taheline = 's'; //üks täht
         //double komakohaga = 4213.234424131;
         //float komakohaga2 = 313.1232212F;
         //boolean kahendv22rtus = true; // 0 ja 1  "y" "n"
@@ -22,11 +14,14 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
+
         World world = new World(10, 5);
 
         Player player = new Player(world.width, world.height);
         Dragon dragon = new Dragon(world.width, world.height);
         Orc orc = new Orc(world.width, world.height);
+        //Mitte java.lang!
+        List<Character> characters = new ArrayList<>(Arrays.asList(player, dragon, orc));
 
         Item sword = new Item(10, 1, "Mõõk", world.width, world.height);
         Item hammer = new Item(5, 3, "Haamer", world.width, world.height);
