@@ -31,7 +31,7 @@ public class ToodeController {
         toode.setAktiivne(!toode.isAktiivne());
         return toode;
     }
-    @GetMapping("muuda-nimme")
+    @GetMapping("muuda-nime")
     public Toode muudaNimi(@PathVariable String nimi) {
         toode.setNimi( nimi );
         return toode;
