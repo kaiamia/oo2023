@@ -89,7 +89,7 @@ public class ToiduaineController {
     public int saaRasv(
             @RequestParam Long id
     ){
-        Toidukomponent  toidukomponent = toidukomponentRepository.findById(id).get();
+        Toidukomponent toidukomponent = toidukomponentRepository.findById(id).get();
         int rasv = toidukomponent.getToiduaine().getRasv() * toidukomponent.getKogus() / 100;
         return rasv;
     }

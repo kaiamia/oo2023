@@ -61,7 +61,7 @@ public class TellimusController {
         tellimused.add(new Tellimus(id, tellija, tellitudTooted));
         return tellimused;
     }*/
-    // POST localhost:8080/lisa-tellimus2?id=9&tellijaId=3&tooteIds = 2,2,3
+    // POST localhost:8080/lisa-tellimus2?id=9&tellijaId=3&tooteIds=2,2,3
     @PostMapping("lisa-tellimus2")
     public List<Tellimus> lisaTellimus2(
             @RequestParam int id,
