@@ -15,7 +15,7 @@ import lombok.Setter;
 public class Toode {  //andmebaasi nimi on classi nimi
     @Id
     private int id;
-    //standard on panna andmebaasi ID long
+    //standard on panna andmebaasi ID Long
     private String nimi;
     private double hind;
 
